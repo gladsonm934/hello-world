@@ -1,5 +1,5 @@
-from flask import FLask
-app = FLask(__name__)
+from flask import Flask
+app = Flask(__name__)
 def hello_world():
     return 'Hello,world from Docker + Jenkins!'
 if __name__ == '__main__':
